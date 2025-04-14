@@ -36,10 +36,10 @@
 
 /********** MAIN **********/
 .div__main{
-    background-color: var(--color-1);
-    height: 100vh;
+    background-color: var(--color-2);
     display: flex;
     justify-content: center;
+    border-radius: 1rem 1rem 0 0;
     padding: 1rem 0rem;
 }
 .div__main__img{
@@ -58,19 +58,39 @@
     flex-direction: column;
     align-items: center;
 }
-.div__main__info h2{
+.div__skills{
     font-family: "Roboto_Condensed-Regular";
     font-size: 1.5rem;
-    color: var(--color-2);
+    color: var(--color-1);
+}
+.skills-title::before{
+    content: "⚙️";
+    font-size: 2rem;
+    color: var(--color-1);
+    margin-right: 0.5rem;
 }
 .div__main__info ul{
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-top: 1rem;
 }
 .div__main__info ul li{
     font-family: "Inter_24pt-bold";
-    font-size: 1rem;
-    color: var(--color-2);
+    font-size: 1.2rem;
+    color: var(--color-1);
     margin-bottom: 0.5rem;
+}
+.div__bio-personal{
+    font-family: "Roboto-Bold";
+    font-size: 1rem;
+    color: var(--color-1);
+    margin-top: 2rem;
+    margin-left: -9.5rem;
+}
+.bio-personal::before{
+    content: "📜";
+    font-size: 1.4rem;
+    color: var(--color-1);
+    margin-right: 0.5rem;
 }
