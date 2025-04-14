@@ -4,3 +4,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+/********** HEADER **********/
+.div__header{
+    background-color: var(--color-1);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.div__introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.div__hello{
+    font-family: "Inter_24pt-Bold";
+    font-size: 3rem;
+    color: var(--color-2);
+}
+.div__name{
+    font-family: "Roboto_Condensed-Regular";
+    font-size: 1.5rem;
+    color: var(--color-2);
+}
