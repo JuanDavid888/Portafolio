@@ -150,6 +150,19 @@
     margin-top: 0.5rem;
     border-radius: 0.5rem;
 }
+
+.div__footer-info .google{
+    background: linear-gradient(var(--color-1), var(--color-6));
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    height: 3rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+}
+
 .div__footer-info a img{
     width: 2rem;
     height: 2rem;
@@ -177,7 +190,6 @@
         font-size: 1.6rem;
         margin-right: 0.5rem;
     }
-    
     .div__bio-personal{
         margin-left: -8.5rem;
     }
@@ -209,13 +221,11 @@
     .div__skills{
         font-size: 2rem;
     }
-
     .skills-title::before{
         content: "⚙️";
         font-size: 2.7rem;
         margin-right: 0.5rem;
     }
-
     .div__main__info ul{
         flex-direction: column;
         align-items: center;
@@ -227,14 +237,12 @@
         color: var(--color-1);
         margin-bottom: 0.5rem;
     }
-
     .div__bio-personal{
         font-size: 1.2rem;
         margin-top: 2rem;
         margin-left: -13.5rem;
         margin-bottom: 2rem;
     }
-     
     .title-info{
         margin-top: 2rem;
         font-size: 2rem;
@@ -245,20 +253,21 @@
     .div__footer-info .linkedIn{
         margin-top: 1.5rem;
     }
+    .div__footer-info .google{
+        margin-top: 1.5rem;
+    }
 }
 
 @media screen and (min-width: 1250px){
     .div__hello{
         font-size: 3rem;
     }
-    
     .div__main__img{
         width: 27%;
     }
     .div__main__img img{
         height: 28rem;
     }
-
     .div__skills{
         font-size: 3rem;
     }
@@ -273,11 +282,12 @@
     .div__main__info ul li{
         font-size: 3rem;
     }
-
     .div__bio-personal{
         width: 70rem;
         font-size: 2rem;
         margin-top: 4rem;
     }
+    .div__footer-info .google{
+        margin-top: 1.5rem;
+    }
 }
-
