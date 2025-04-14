@@ -7,7 +7,6 @@
 /********** HEADER **********/
 .div__header{
     background-color: var(--color-1);
-    height: 100vh;
     display: flex;
     justify-content: center;
     padding: 2rem;
@@ -33,4 +32,45 @@
     font-family: "Roboto-Bold";
     font-size: 1rem;
     color: var(--color-2);
+}
+
+/********** MAIN **********/
+.div__main{
+    background-color: var(--color-1);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0rem;
+}
+.div__main__img{
+    width: 40%;
+    display: flex;
+    object-fit: cover;
+}
+.div__main__img img{
+    width: 100%;
+    height: 14rem;
+}
+.div__main__info{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div__main__info h2{
+    font-family: "Roboto_Condensed-Regular";
+    font-size: 1.5rem;
+    color: var(--color-2);
+}
+.div__main__info ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.div__main__info ul li{
+    font-family: "Inter_24pt-bold";
+    font-size: 1rem;
+    color: var(--color-2);
+    margin-bottom: 0.5rem;
 }
