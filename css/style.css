@@ -28,3 +28,9 @@
     font-size: 1.5rem;
     color: var(--color-2);
 }
+.div__bio{
+    margin-top: 1rem;
+    font-family: "Roboto-Bold";
+    font-size: 1rem;
+    color: var(--color-2);
+}
