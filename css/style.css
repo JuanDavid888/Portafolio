@@ -25,6 +25,7 @@
 .div__name{
     font-family: "Roboto_Condensed-Regular";
     font-size: 1.5rem;
+    margin-top: 0.5rem;
     color: var(--color-2);
 }
 .div__bio{
@@ -50,6 +51,7 @@
 .div__main__img img{
     width: 100%;
     height: 14rem;
+    border-radius: 1.2rem;
 }
 .div__main__info{
     width: 50%;
@@ -93,4 +95,62 @@
     font-size: 1.4rem;
     color: var(--color-1);
     margin-right: 0.5rem;
+}
+
+/********** FOOTER **********/
+.div__footer{
+    background-color: var(--color-2);
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.div__info-personal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.title-info{
+    font-family: "Roboto_Condensed-Regular";
+    font-size: 1.5rem;
+    color: var(--color-1);
+}
+
+.div__footer-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+.div__footer-info .gitHub{
+    background-color: var(--color-1);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 3rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+}
+.div__footer-info .linkedIn{
+    background-color: var(--color-1);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16rem;
+    height: 3rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+}
+.div__footer-info a img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+}
+.div__footer-info a p{
+    font-family: "Roboto-Bold";
+    font-size: 1rem;
+    color: var(--color-2);
 }
