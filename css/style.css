@@ -6,7 +6,7 @@
 }
 /********** HEADER **********/
 .div__header{
-    background-color: var(--color-1);
+    background: linear-gradient( var(--color-5), var(--color-1));
     display: flex;
     justify-content: center;
     padding: 2rem;
@@ -37,7 +37,7 @@
 
 /********** MAIN **********/
 .div__main{
-    background-color: var(--color-2);
+    background: linear-gradient(var(--color-4), var(--color-2));
     display: flex;
     justify-content: center;
     border-radius: 1rem 1rem 0 0;
@@ -63,6 +63,8 @@
 .div__skills{
     font-family: "Roboto_Condensed-Regular";
     font-size: 1.5rem;
+    text-shadow: 1px 1px var(--color-1);
+    box-shadow: 0px -3px 10px 3px var(--color-3);
     color: var(--color-1);
 }
 .skills-title::before{
@@ -73,13 +75,17 @@
 }
 .div__main__info ul{
     display: flex;
+    list-style: none;
     flex-direction: column;
     align-items: center;
+    box-shadow: 1px 1px 10px 3px var(--color-3);
+    text-shadow: 1px 1px var(--color-2);
     margin-top: 1rem;
 }
 .div__main__info ul li{
     font-family: "Inter_24pt-bold";
     font-size: 1.2rem;
+    background: linear-gradient(var(--color-4), var(--color-3));
     color: var(--color-1);
     margin-bottom: 0.5rem;
 }
@@ -99,7 +105,7 @@
 
 /********** FOOTER **********/
 .div__footer{
-    background-color: var(--color-2);
+    background: linear-gradient(var(--color-2), var(--color-3));
     display: flex;
     justify-content: center;
     padding: 2rem;
@@ -123,7 +129,7 @@
     margin-top: 1rem;
 }
 .div__footer-info .gitHub{
-    background-color: var(--color-1);
+    background: linear-gradient(var(--color-1), var(--color-6));
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -134,7 +140,7 @@
     border-radius: 0.5rem;
 }
 .div__footer-info .linkedIn{
-    background-color: var(--color-1);
+    background: linear-gradient(var(--color-1), var(--color-6));
     text-decoration: none;
     display: flex;
     justify-content: center;

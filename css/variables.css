@@ -2,6 +2,11 @@
 :root{
     --color-1: #FFFFFF;
     --color-2: #000000;
+    --color-3: #660303;
+    --color-4: #b21010;
+    --color-5: #abc8f3;
+    --color-6: #8b88af;
+    --color-7: #c0b130;
 }
 
 @font-face {
