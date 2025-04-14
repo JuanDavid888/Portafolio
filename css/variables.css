@@ -4,6 +4,14 @@
 }
 
 @font-face {
-    font-family: "example";
-    src: url("../fonts/example.ttf");
+    font-family: "Inter_24pt-Bold";
+    src: url("../storage/fonts/Inter/static/Inter_24pt-Bold.ttf");
+}
+@font-face {
+    font-family: "Roboto_Condensed-Regular";
+    src: url("../storage/fonts/Roboto/static/Roboto_Condensed-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("../storage/fonts/Roboto/static/Roboto-Bold.ttf");
 }
