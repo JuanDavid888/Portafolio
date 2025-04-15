@@ -210,35 +210,35 @@
         padding: 1rem;
     }
     .div__main__img{
-        width: 35%;
+        width: 30%;
     }
     .div__main__info{
         width: 50%;
     }
     .div__main__img img{
-        height: 19rem;
+        height: 22rem;
     }
     .div__skills{
-        font-size: 2rem;
+        font-size: 2.3rem;
     }
     .skills-title::before{
         content: "⚙️";
-        font-size: 2.7rem;
+        font-size: 3rem;
         margin-right: 0.5rem;
     }
     .div__main__info ul{
         flex-direction: column;
         align-items: center;
-        margin-top: 1rem;
+        margin-top: 1.5rem;
     }
     .div__main__info ul li{
         font-family: "Inter_24pt-bold";
-        font-size: 2rem;
+        font-size: 2.2rem;
         color: var(--color-1);
         margin-bottom: 0.5rem;
     }
     .div__bio-personal{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         margin-top: 2rem;
         margin-left: -13.5rem;
         margin-bottom: 2rem;
@@ -289,5 +289,11 @@
     }
     .div__footer-info .google{
         margin-top: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 420px){
+    .div__bio-personal{
+        margin-left: -10rem;
     }
 }
